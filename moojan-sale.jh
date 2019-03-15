@@ -1,0 +1,61 @@
+entity Product {
+	name String,
+    code String,
+    image ImageBlob,
+    count Long,
+    buyPrice Long,
+    salePice Long,
+    color String
+    
+}
+
+entity Brand {
+	name String,
+    phone String
+}
+
+
+// an ignored comment
+/** not an ignored comment */
+entity Sale {
+	code String,
+	price Long,
+	moojan Long,
+	maman Long,
+    baba Long,
+    bardasht Long,
+    other Long,
+    color String
+}
+
+
+/**
+
+	
+
+
+
+
+relationship OneToOne {
+	Product{location} to Brand
+}
+
+// defining multiple OneToMany relationships with comments
+relationship OneToMany {
+	Product{sale} to Sale
+}
+
+relationship ManyToOne {
+  Sale {sale} to Product
+}
+
+paginate Product, Sale , Brand with pagination
+
+// Use Data Transfert Objects (DTO)
+// dto * with mapstruct
+
+// Set service options to all except few
+service all with serviceImpl
+
+// Set an angular suffix
+// angularSuffix * with mySuffix
