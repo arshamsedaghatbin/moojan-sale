@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "moojansale",
+    "packageName": "com.moojan",
+    "packageFolder": "com/moojan",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "ar-ly",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "MWE0OTk3MTMzOGYyNDE4MjkxZThjZDFkZTI2M2QyYWZjNGYyMjcwMjk5NzdlNDc2YTljNTJhMGE5YTZmYTY4NWRjM2ViMzFiYzk4MWU2ZDViMjJkYzA0MGY5MjIxZjAwNGY3OGE1ZGY1NDBhYTQ2MzYwMzg5MTYyNmNiZTA5MGU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "arshamsedaghatbin",
+  "repository-name": "moojan-sale"
+}
